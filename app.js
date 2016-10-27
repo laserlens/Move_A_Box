@@ -1,5 +1,23 @@
 $(document).ready(function() {
 
+//test some code
+
+function white() {
+  $('body').css("background-color",
+  "white");
+}
+function black() {
+  $('body').css("background-color",
+  "white");
+}
+
+
+//code I use
+
+
+
+
+
     $('#leftClicker').click(function() {
         $('#box1').animate({
         'marginLeft' : "-=30px" //moves left
